@@ -16,3 +16,7 @@ function greet(person: Person): string {
 let person1: Person = { name: "Alice", age: 30 };
 console.log(greet(person1)); // Output: Hello, Alice! You are 30 years old.
 
+function test() {
+  let person2: Person = { name: "Bob", age: 25 };
+  console.log(greet(person2)); // Output: Hello, Bob! You are 25 years old.
+}
